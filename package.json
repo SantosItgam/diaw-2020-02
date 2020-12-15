@@ -4,11 +4,12 @@
   "description": "Codigo base para administrar paqueteria front end.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config ./webpack.config.js --mode development" 
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SantosItgam/diaw-2020-02.git"
+    "url": "git+httpclears://github.com/SantosItgam/diaw-2020-02.git"
   },
   "keywords": ["node", "frontend"],
   "author": "Santos Vicencio <sntvicencio@gmail.com>",
