@@ -1,4 +1,5 @@
 const path = require('path')
+const ESlintPlugin = require('eslint-webpack-plugin')
 
 
 module.exports = {
@@ -24,5 +25,6 @@ module.exports = {
                 use : ['babel-loader']
             },
         ]
-    }
+    },
+    plugins :[new ESlintPlugin()]
 }
